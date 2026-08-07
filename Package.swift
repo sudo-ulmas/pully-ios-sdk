@@ -27,8 +27,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Pully",
-            url: "https://github.com/sudo-ulmas/pully-ios-sdk/releases/download/1.0.0/Pully.xcframework.zip",
-            checksum: "0e77d0985260bfb7138424cae1444fd55d58252446e75d7c91008206f588406e"
+            url: "https://github.com/sudo-ulmas/pully-ios-sdk/releases/download/1.0.1/Pully.xcframework.zip",
+            checksum: "906abdcb84d6882c8b0d64be41112cd2476a0c896383ce8d7ce357f4a807f21b"
         ),
         // Binary targets cannot declare dependencies, so this thin wrapper
         // links MyIdSDK for the partner. Its single source file re-exports

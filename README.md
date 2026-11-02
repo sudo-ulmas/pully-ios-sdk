@@ -17,7 +17,7 @@ In Xcode: **File → Add Package Dependencies…** and enter:
 https://github.com/sudo-ulmas/pully-ios-sdk
 ```
 
-Pin to an exact version (e.g. `1.0.0`). The MyID SDK is resolved automatically
+Pin to an exact version (e.g. `1.1.0`). The MyID SDK is resolved automatically
 as a transitive dependency.
 
 ## Host app setup

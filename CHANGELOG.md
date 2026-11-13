@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.1
+
+Changed:
+- The public offer and privacy policy notice is now shown in every design
+  variant. `.openbank`, `.brb`, `.mkb` and `.mani` show it under the login
+  button and at the bottom of the registration screen.
+- MyID identity verification uses the client credentials returned by the Pully
+  backend for each session, falling back to the built-in ones when the
+  backend doesn't provide them. No integration changes.
+
 ## 1.1.0
 
 Added:
